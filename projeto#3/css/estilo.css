@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*classes auxiliares*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.w33{
+    width: 32.3%;
+    float: left;
+}
+.w50{
+    width: 50%;
+    float: left;
+    
+}
+.w100{
+    width: 100%;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: rgb(57, 1, 122);
+    min-height: 30px;
+    color: white;
+    padding: 10px;
+}
+section.header i{
+    font-size: 30px;
+}
+nav.desktop ul{
+    float: right;
+    padding-right: 10px;
+}
+nav.desktop ul li{
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+section.header{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+section.header span{
+    color: rgb(241, 41, 41);
+}
+.corpo-single{
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px  10px 0 10px;
+    text-align: center;
+}
+.corpo-single p{
+    text-align: left;
+}
+img{
+    width: 100%;
+
+}
+section.corpo > .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bt{
+    text-align: center;
+    padding: 10px;
+    
+    color: white;
+    background: green;
+    margin: 0 10px 0 10px;
+}
+footer{
+    margin-top: 40px;
+    background: rgb(31, 1, 31);
+    padding: 30px;
+    color: white;
+}
+footer i{
+    text-align: center;
+    color: white;
+}
+section.novidades{
+    width: 100%;
+    text-align: center;
+    background: rgb(31, 10, 31);
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+}
+section.novidades i{
+    font-size: 50px;
+}
+section.noticias{
+    padding: 10px;
+    
+}
+
+section.noticias p{
+    width: 90%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+section.noticias h2{
+    text-align: center;
+    font-size: 25px;
+}
+@media screen and (max-width:768px){
+    .w50, .w33{
+        width: 100%;
+        margin-top: 30px;
+    }
+    nav.desktop ul{
+        float: none;
+        text-align: left;
+    }
+    header{
+        text-align: center;
+    }
+}
